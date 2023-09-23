@@ -5,11 +5,8 @@ CXX := c++
 CXXFLAGS := -Wall -Werror -Wextra -std=c++98 -MMD -g3
 
 OBJ :=	main.o \
-		AMateria.o \
-		Ice.o \
-		Cure.o \
-		Character.o \
-		MateriaSource.o
+		Bureaucrat.o \
+
 
 INCLUDES := -I.
 
